@@ -1,0 +1,12 @@
+[14:19:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Microsoft Microsoft-9889606) on Linux 6.5.0-1025-azure (amd64)
+[14:19:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[14:19:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:19:29] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[14:19:44] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 14491ms.
+[14:19:44] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+[14:19:46] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 1863ms.
+[14:19:46] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:19:46] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - playit-gg (0.1.4)
+[14:19:57] [ServerMain/WARN]: Failed to load eula.txt
+[14:19:57] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
