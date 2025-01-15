@@ -7,8 +7,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_birch_forest": "2025-01-15 17:07:46 +0000",
       "minecraft:beach": "2025-01-15 16:14:05 +0000",
       "minecraft:dark_forest": "2025-01-15 16:22:06 +0000",
+      "minecraft:forest": "2025-01-15 17:09:14 +0000",
       "minecraft:sparse_jungle": "2025-01-15 16:22:13 +0000",
       "minecraft:ocean": "2025-01-15 16:33:00 +0000",
       "minecraft:jungle": "2025-01-15 16:47:41 +0000",
@@ -568,6 +570,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "rotten_flesh": "2025-01-15 17:05:24 +0000",
       "cooked_cod": "2025-01-15 16:43:19 +0000",
       "porkchop": "2025-01-15 16:24:22 +0000"
     },
@@ -1266,6 +1269,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-01-15 16:46:19 +0000",
+      "minecraft:spider": "2025-01-15 16:59:06 +0000",
       "minecraft:zombie": "2025-01-15 16:46:27 +0000"
     },
     "done": false
@@ -1480,6 +1484,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-01-15 16:54:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-01-15 16:54:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-01-15 16:54:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-15 16:54:31 +0000"
@@ -1507,18 +1529,6 @@
   "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-15 16:54:31 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
-    "criteria": {
-      "has_raw_iron": "2025-01-15 16:54:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_iron_block": {
-    "criteria": {
-      "has_raw_iron": "2025-01-15 16:54:26 +0000"
     },
     "done": true
   },
@@ -1558,12 +1568,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
-    "criteria": {
-      "has_raw_iron": "2025-01-15 16:54:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-15 16:54:31 +0000"
@@ -1597,6 +1601,132 @@
   "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
     "criteria": {
       "has_tuff": "2025-01-15 16:54:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wild_armor_trim_smithing_template": "2025-01-15 17:14:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wild_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-01-15 17:14:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-01-15 17:14:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-15 17:14:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-01-15 17:14:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-01-15 17:01:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-15 17:14:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-15 17:14:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-15 17:14:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-01-15 17:14:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-01-15 17:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-15 17:14:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-01-15 17:14:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
+    "criteria": {
+      "has_mossy_cobblestone": "2025-01-15 17:14:18 +0000"
     },
     "done": true
   },
